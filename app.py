@@ -45,7 +45,7 @@ def handle_message(event):
 
     if msg == 'hi':
         r = 'hi'
-    elif msg = 'Do you eat?'
+    elif msg = 'Do you eat?':
         r = 'Not yet.'
     line_bot_api.reply_message(
         event.reply_token,
