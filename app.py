@@ -1,3 +1,6 @@
+# I use "line-bot-zzhou" as app name in Heroku 
+# I use zzhou0543@gmail.com to do this project in Heroku
+
 from flask import Flask, request, abort
 
 from linebot import (
